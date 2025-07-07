@@ -21,7 +21,7 @@ export default function Header() {
   ];
   return (
     <div className="absolute w-full z-10">
-      <div className="flex justify-between container mx-auto text-white p-8">
+      <div className="flex justify-between container mx-auto text-white p-8 items-center">
         <Link href="/" className="text-3xl font-bold">
           Home
         </Link>
@@ -34,9 +34,6 @@ export default function Header() {
               {link.name}
             </Link>
           ))}
-          {/* <Link href="/performance">Performance</Link>
-          <Link href="/reliability">Reliability</Link>
-          <Link href="/scale">Scale</Link> */}
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
-import Image from "next/image";
+import React from "react";
+import Hero from "./components/hero";
+import homeSrc from "/public/home.jpg";
 
 export default function Home() {
-  return <div className="h-screen">{/* Hello World! */}</div>;
+  return <Hero src={homeSrc} alt="Home" content="Professional Cloud Hosting" />;
 }
